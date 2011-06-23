@@ -79,39 +79,15 @@ class LanguageDetector
     # 
 
     training_data = [
-      [ "ar", "ar-utf8.txt", "utf8", "arabic" ],
-      [ "bg", "bg-utf8.txt", "utf8", "bulgarian" ],
-      [ "cs", "cs-utf8.txt", "utf8", "czech" ],
-      [ "da", "da-utf8.txt", "utf8", "danish" ],
-      [ "de", "de-utf8.txt", "utf8", "german" ],
-      [ "el", "el-utf8.txt", "utf8", "greek" ],
-      [ "en", "en-utf8.txt", "utf8", "english" ],
-      [ "et", "et-utf8.txt", "utf8", "estonian" ],
-      [ "es", "es-utf8.txt", "utf8", "spanish" ],
-      [ "fa", "fa-utf8.txt", "utf8", "farsi" ],
-      [ "fi", "fi-utf8.txt", "utf8", "finnish" ],
-      [ "fr", "fr-utf8.txt", "utf8", "french" ],
-      [ "ga", "ga-utf8.txt", "utf8", "irish" ],
-      [ "he", "he-utf8.txt", "utf8", "hebrew" ],
-      [ "hi", "hi-utf8.txt", "utf8", "hindi" ],
-      [ "hr", "hr-utf8.txt", "utf8", "croatian" ],
-      [ "it", "it-utf8.txt", "utf8", "italian" ],
-      [ "ja", "ja-utf8.txt", "utf8", "japanese" ],
-      [ "ko", "ko-utf8.txt", "utf8", "korean" ],
-      [ "hu", "hu-utf8.txt", "utf8", "hungarian" ],
-      [ "tk", "tk-utf8.txt", "utf8", "turkish" ],
-      [ "nl", "nl-utf8.txt", "utf8", "dutch" ],
-      [ "no", "no-utf8.txt", "utf8", "norwegian" ],
-      [ "pl", "pl-utf8.txt", "utf8", "polish" ],
-      [ "pt", "pt-utf8.txt", "utf8", "portuguese" ],
-      [ "ro", "ro-utf8.txt", "utf8", "romanian" ],
-      [ "ru", "ru-utf8.txt", "utf8", "russian" ],
-      [ "sl", "sl-utf8.txt", "utf8", "slovenian" ],
-      [ "sv", "sv-utf8.txt", "utf8", "swedish" ],
-      [ "th", "th-utf8.txt", "utf8", "thai" ],
-      [ "uk", "uk-utf8.txt", "utf8", "ukraninan" ],
-      [ "vi", "vi-utf8.txt", "utf8", "vietnamese" ],
-      [ "zh", "zh-utf8.txt", "utf8", "chinese" ]
+      [ "de", "de-utf8.txt", "utf8", "de" ],
+      [ "en", "en-utf8.txt", "utf8", "en" ],
+      [ "es", "es-utf8.txt", "utf8", "es" ],
+      [ "fr", "fr-utf8.txt", "utf8", "fr" ],
+      [ "it", "it-utf8.txt", "utf8", "it" ],
+      [ "ko", "ko-utf8.txt", "utf8", "ko" ],
+      [ "pt", "pt-utf8.txt", "utf8", "pt" ],
+      [ "ru", "ru-utf8.txt", "utf8", "ru" ],
+      [ "zh", "zh-utf8.txt", "utf8", "zh" ]
       # id (indonesian)
       # ku (kurdish)
       # lt (lithuanian)
