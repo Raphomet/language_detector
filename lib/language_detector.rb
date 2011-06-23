@@ -20,7 +20,7 @@ class LanguageDetector
     best_distance = nil
 
     @profiles.each do |profile|
-      distance = profile.compute_distance(p)
+      distance = p.compute_distance(profile)
 
       if !best_distance or distance < best_distance
         best_distance = distance
